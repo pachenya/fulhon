@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+body {
+  color: white;
+  background-color: #222;
+  width: 100%;
+  /*margin: 1px auto 1px auto;*/
+  text-align: center;
+}
+
+#top_box {
+  color: white;
+  background-color: #888888;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  padding: 3px;
+  margin: 0px;
+  text-align: center;
+}
+#h1small {
+  font-size: 10pt;
+  color: #777;
+}
+
+a {
+  color: yellow;
+}
+
+.largeb {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 32pt;
+}
+.bookb {
+  width: 86%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 16pt;
+}
+.ynbox {
+  font-size: 30pt;
+  border: solid 2px white;
+  margin: 10px;
+  color: yellow;
+  line-height: 40pt;
+  padding: 0;
+}
+.musicbox {
+  font-size: 22pt;
+  border: solid 2px antiquewhite;
+  color: antiquewhite;
+  line-height: 40pt;
+  margin: 10px;
+}
