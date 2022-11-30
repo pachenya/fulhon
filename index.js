@@ -59,14 +59,14 @@ function clicked() {
     b01_count++;
     return;
   } else if (flg[1] && b01_count == book01.length) {
-    Msg("<span style='color: gold;'>＜２冊目は<span class='modebut' onclick='bookopen(2)'>『ぬけ！ちまるんぽ！』</span>のようだ。だ！　読んでみようか！？＞</span>");
+    Msg("<span style='color: gold;'>＜２冊目は<span class='modebut' onclick='bookopen(2)'>『ぬけ！ちまるんぽ！』</span>のようだ。読んでみようか！？＞</span>");
     b01_count++;
   } else if (flg[2] && b02_count < book02.length) {
     Msg(book02[b02_count]);
     b02_count++;
     return;
   } else if (flg[2] && b02_count == book02.length) {
-    Msg("<span style='color: gold;'>＜３冊目は<span class='modebut' onclick='bookopen(3)'>『コカラゲ』</span>のようだ。だ！　読んでみようか！？＞</span>");
+    Msg("<span style='color: gold;'>＜３冊目は<span class='modebut' onclick='bookopen(3)'>『コカラゲ』</span>のようだ。読んでみようか！？＞</span>");
     b02_count++;
   } else if (flg[3] && b03_count < book03.length) {
     Msg(book03[b03_count]);
