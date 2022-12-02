@@ -48,6 +48,7 @@ function bookopen(i) {
     b05_count = 0;
     break;
   }
+  clicked();
 }
 
 exflg=0;
