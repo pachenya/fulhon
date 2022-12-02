@@ -52,6 +52,7 @@ function bookopen(i) {
 }
 
 exflg=0;
+exflg2=0;
 function clicked() {
   if (count < xyzzy.length) {
     Msg(xyzzy[count]);
@@ -86,6 +87,9 @@ function clicked() {
     Msg(book05[b05_count]);
     b05_count++;
     return;
+  } else if (flg[5] && b05_count >= book05.length) {
+      exflg2 = 1;
+      Msg(randText());
   } else {
     switch(count) {
       default:
@@ -110,6 +114,10 @@ function buildrndmsg() {
 var msgs = 0;
 var msgs2 = 0;
 function randText() {
+  if (exflg2) {
+    rval = getsenryu();
+    return rval;
+  }
   rval = GorioIce[msgs];
   msgs++;
   if (msgs >= GorioIce.length) {
