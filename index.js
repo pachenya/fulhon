@@ -125,7 +125,7 @@ function randText() {
   }
   
   if (flg[3] && b03_count == book03.length) {
-    if (msgs2 == 39 && exflg == 0) {
+    if (msgs2 == 29 && exflg == 0) {
       exflg = 1;
     }
     msgs2++;

@@ -12,6 +12,7 @@
 body {
   color: white;
   background-color: #222;
+  background-image: url('wallp.png');
   width: 100%;
   /*margin: 1px auto 1px auto;*/
   text-align: center;
